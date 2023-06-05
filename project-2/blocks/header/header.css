@@ -1,0 +1,17 @@
+/* блок хедера с элементами */
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    /* выше установили ограничения для секции */
+    /* box-sizing: border-box;
+    выше все расчеты внутрь */
+    position: relative;
+    /* выше точка для абсолютно поз-х элементов блока */
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+  }

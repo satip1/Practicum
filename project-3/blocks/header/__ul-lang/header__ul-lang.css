@@ -1,0 +1,13 @@
+/* стили для списков языков в header */
+.header__ul-lang {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-top: 11px;
+}
+
+.header__ul-lang li:first-child .header__link {
+  margin-left: 0;
+}

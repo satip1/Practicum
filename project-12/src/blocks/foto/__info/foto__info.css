@@ -1,0 +1,10 @@
+/* стили надписи и лайка карточки фото блока foto */
+.foto__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 21px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}

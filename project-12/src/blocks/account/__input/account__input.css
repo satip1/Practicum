@@ -1,0 +1,30 @@
+/* стиль полей ввода в форме регистрации и входа */
+.account__input {
+  padding: 0;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #CCCCCC;
+
+}
+
+.account__input:focus {
+   outline: none;
+}
+
+.popup__input::placeholder {
+  font-weight: 400;
+  color:  #CCCCCC;
+}
+
+.account__input:focus::placeholder {
+  color: transparent;
+}
+

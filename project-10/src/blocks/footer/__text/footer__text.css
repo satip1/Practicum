@@ -1,0 +1,22 @@
+/* текст футера footer */
+.footer__text {
+  padding: 0;
+  padding-top: 66px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  max-width: 880px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #545454;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+.footer__text {
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 48px;
+  padding-bottom: 36px;
+}
+}

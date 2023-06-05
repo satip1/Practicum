@@ -1,0 +1,19 @@
+/* подзаголовок блока lead  */
+.lead__subtitle {
+  margin: 0 auto;
+  padding-top: 32px;
+  max-width: 640px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 288px;
+  padding-top: 16px;
+  }
+}

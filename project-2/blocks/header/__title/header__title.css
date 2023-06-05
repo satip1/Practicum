@@ -1,0 +1,13 @@
+/* элемент заголовка с h1 */
+.header__title {
+    margin: 0;
+    margin-left: 64px;
+    padding: 0;
+    width: 730px;
+    font-size: 102px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 96px;
+    position: relative;
+    z-index: 3;
+  }

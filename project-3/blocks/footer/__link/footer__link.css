@@ -1,0 +1,22 @@
+/* стили элементов меню блока footer  */
+.footer__link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 18px;
+  display: block;
+}
+
+.footer__link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+ .footer__link {
+  margin-right: 0;
+  font-size: 24px;
+  line-height: 24px;
+  padding-bottom: 32px;
+}
+}

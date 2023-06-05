@@ -1,0 +1,6 @@
+/* стиль для попапа регистрации и входа */
+
+.popup__container_info {
+  padding-top: 35px;
+  padding-bottom: 45px;
+}

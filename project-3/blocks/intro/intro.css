@@ -1,0 +1,33 @@
+.intro {
+  margin: 0;
+  padding-left: 148px;
+  padding-top: 92px;
+/* border: 2px dashed red; */
+}
+@media screen and (max-width: 767px) {
+  .intro {
+    padding-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .intro {
+    padding-top: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro {
+    padding-top: 92px;
+    padding-left: 48px;
+  }
+}
+
+
+
+
+

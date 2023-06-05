@@ -1,0 +1,10 @@
+/* стиль блока с картинкой попапа входа и регистрации */
+
+.popup__image {
+  max-height: 120px;
+  min-height: 120px;
+  height: 100%;
+  padding-bottom: 57px;
+  background-position: center;
+  background-repeat: no-repeat;
+}

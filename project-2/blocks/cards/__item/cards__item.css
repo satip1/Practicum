@@ -1,0 +1,13 @@
+/* карточка блока cards  */
+.cards__item {
+  width: 240px;
+  padding-top: 60px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+/* делаем условие обнуля марджина для каждой третьей карточки
+дебильный способ, при адаптивной верстке, когда карточек будет 2 в ряду с ним придется трахаться */
+.cards__item:nth-child(3n) {
+  margin-right: 0;
+}

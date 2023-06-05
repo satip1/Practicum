@@ -1,0 +1,12 @@
+/* блок карточек с круглыми картинками */
+.cards {
+  width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 0;
+  list-style-type: none;
+}
+

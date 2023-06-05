@@ -1,0 +1,17 @@
+/* ссылка со стрелками и ховером в хедере  */
+.header__link {
+    text-decoration: none;
+    color:  #2f80ed;
+    transition: opacity .7s ease;
+  }
+
+  .header__link::after {
+    content: "\2192";
+    margin-left: 3px;
+  }
+
+   .header__link:hover {
+    /* color: blue; */
+    /* border-bottom: 2px solid blue; */
+    opacity: .5;
+  }

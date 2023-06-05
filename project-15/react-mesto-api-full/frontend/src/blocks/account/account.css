@@ -1,0 +1,21 @@
+/* стили блока входа и регистрации */
+.account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 358px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+

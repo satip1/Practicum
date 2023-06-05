@@ -1,0 +1,28 @@
+/* стиль ссылки под формой регистрации */
+.account__link {
+  color: white;
+  text-decoration: none;
+  margin-left: 24px;
+}
+
+.account__link:hover {
+  opacity: 0.6;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

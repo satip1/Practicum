@@ -1,0 +1,7 @@
+/* блок с заголовком h3 */
+/* модификаторы под темную тему */
+.section-subtitle_theme_dark {
+  color: white;
+  position: relative;
+  z-index: 2;  
+}

@@ -1,0 +1,4 @@
+/* стили текста в списке в intro */
+.intro__li-bold {
+  font-weight: 700;
+}

@@ -1,0 +1,10 @@
+/* стиль подвала блока footer */
+.footer {
+  padding-left: 19px;
+  padding-right: 19px;
+  min-height: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+

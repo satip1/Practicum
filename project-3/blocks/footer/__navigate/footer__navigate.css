@@ -1,0 +1,17 @@
+/* стили блока навигации в блоке footer */
+/* дополнительный блок, группирующий ссылки, для упрощения позиционирования */
+.footer__navigate {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+.footer__navigate {
+  flex-direction: column;
+  align-items: flex-start;
+}
+}

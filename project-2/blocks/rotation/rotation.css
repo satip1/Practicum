@@ -1,0 +1,15 @@
+/* анимация: бесконечное вращение от 0 до 360 */
+@keyframes rotor {
+   from {
+        transform: rotate(0deg);
+       
+    }
+    to {
+        transform: rotate(360deg);
+        
+    }
+}
+
+.rotation {    
+animation: rotor 20s linear infinite;
+}

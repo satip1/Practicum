@@ -1,0 +1,7 @@
+/* блок для видео */
+.video {
+  padding-top: 60px;
+  position: relative;
+  bottom: -40px;
+  z-index: 3;
+}

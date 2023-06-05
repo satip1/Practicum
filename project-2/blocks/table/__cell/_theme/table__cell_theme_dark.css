@@ -1,0 +1,5 @@
+/* модификаторы под 10 карточек и темную тему */
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+}

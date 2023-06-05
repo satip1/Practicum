@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Mesto проект</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <!-- логотип -->
+    <header class="logo">
+      <img src="./images/logo_white_svg.svg" alt="Логотип Место" class="logo__img">
+    </header>
+
+    <main class="main">
+      <div class="page">
+
+        <!-- данные опользователе блок profile -->
+        <section class="profile">
+          <img src="./images/avatar.jpg" alt="Фото пользователя" class="profile__avatar">
+          <div class="profile__info">
+            <div class="profile__heading">
+              <h1 class="profile__title">Жак-Ив Кусто</h1>
+              <button type="button" aria-label="Редактировать профиль" class="profile__btn-edit"></button>
+            </div>
+            <h2 class="profile__text">Исследователь океана</h2>
+          </div>
+          <button type="button" aria-label="Добавить" class="profile__btn-add">+</button>
+        </section>
+
+        <!-- галлерея фотографий блок foto -->
+        <section class="foto"></section>
+
+        <!-- блок footer -->
+        <footer class="footer">
+          <p class="footer__text">&copy; 2022 Mesto Russia</p>
+        </footer>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- блок редактирования popup -->
+  <section class="popup editprofile">
+    <div class="popup__container editprofile__container">
+      <button type="button" aria-label="Закрыть окно" class="popup__btn-close  editprofile__btn-close "></button>
+      <h2 class="popup__title editprofile__title">Редактировать профиль</h2>
+      <form class="popup__form editprofile__form" name="edit__form">
+        <input type="text" name="edit__name" id="user" class="popup__input" placeholder="Ваше имя">
+        <input type="text" name="edit__about" id="about" class="popup__input" placeholder="Чем занимаетесь">
+        <button type="submit" class="popup__btn-save  editprofile__btn-save ">Сохранить</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- блок добавления карточки addcard -->
+  <section class="popup addcard">
+    <div class="popup__container addcard__container">
+      <button type="button" aria-label="Закрыть окно" class="popup__btn-close addcard__btn-close"></button>
+      <h2 class="popup__title addcard__title">Новое место</h2>
+      <form class="popup__form addcard__form" name="addcard__form">
+        <input type="text" name="addcard__name" id="place" class="popup__input" placeholder="Название">
+        <input type="text" name="addcard__about" id="href" class="popup__input" placeholder="Ссылка на картинку">
+        <button type="submit" class="popup__btn-save addcard__btn-save">Сохранить</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- fullimage_opened -->
+  <!-- блок отображения полноразмерного изображения -->
+  <section class="popup fullimage">
+    <div class="popup__fullimage-container fullimage__container">
+      <button type="button" aria-label="Закрыть окно" class="popup__btn-close fullimage__btn-close"></button>
+      <img src="./images/nofoto.png" alt="Ошибка загрузкии зображения" class="popup__fullimage fullimage__image">
+      <h2 class="popup__fullimage-text fullimage__text">Мужик на велосипеде </h2>
+    </div>
+  </section>
+
+  <!-- шаблон карточки фото foto -->
+  <template class="tempcart">
+    <article class="foto__card">
+      <button class="foto__trash" type="button" aria-label="Удалить"></button>
+      <img src="./images/nofoto.png" alt="Ошибка загрузкии зображения" class="foto__image">
+      <div class="foto__info">
+        <h3 class="foto__text"></h3>
+        <button class="foto__like" type="button" aria-label="Нравится"></button>
+      </div>
+    </article>
+  </template>
+
+  <script src="./script/index.js"></script>
+</body>
+
+</html>
